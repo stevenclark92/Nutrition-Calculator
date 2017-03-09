@@ -25,7 +25,6 @@ That's all there is to it for now.
 
 Fixes & Improvements:
 
-* Fix broken BMI calculator
 * Improve user management
 * Refactor & streamline
 * Ensure daily protein intake doesn't fall below 1.5g/kg for users with a weight goal of Gain
