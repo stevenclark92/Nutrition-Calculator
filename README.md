@@ -3,13 +3,13 @@
 This is a really simple nutrition calculator built in Python made with the sole purpose of getting myself comfortable working with classes.
 
 The following inputs are required:
-* Name
-* Age
-* Weight(kg)
-* Height(cm)
-* Sex Chromosomes(XX or XY)
-* Weight Goal (Gain, Maintain or Lose)
-* Activity Level (Sedentry, Light, Moderate, Active or Extreme)
+* Name (string)
+* Age (integer)
+* Weight (integer, kg)
+* Height (integer, cm)
+* Sex Chromosomes (string, either XX or XY)
+* Weight Goal (string, either Gain, Maintain or Lose)
+* Activity Level (string, either Sedentry, Light, Moderate, Active or Extreme)
 
 The calculator takes this data and prints:
 * Base Metabolic Rate (no activity)
