@@ -45,7 +45,7 @@ class user(object):
             return 0
  
     def body_mass_index(self):
-        return float(self.weight)/(self.height ** 2)+0.00005
+        return float(self.weight) / (self.height ** 2) + 0.00005
 
     def macronutrient_split(self):
         protein = 0
