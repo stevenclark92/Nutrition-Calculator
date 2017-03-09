@@ -12,9 +12,9 @@ class user(object):
         self.activity = activity
  
     def base_metabolic_rate(self):
-        if self.chromasomes == 'XY':
+        if self.chromosomes == 'XY':
             return 66.47 + (13.75 * self.weight) + (5.0 * self.height) - (6.75 * self.age)
-        elif self.chromasomes == 'XX':
+        elif self.chromosomes == 'XX':
             return 665.09 + (9.56 * self.weight) + (1.84 * self.height) - (4.67 * self.age)
         else:
             print('Biology not specified.')
