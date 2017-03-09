@@ -45,7 +45,7 @@ class user(object):
             return 0
  
     def body_mass_index(self):
-        return (self.weight / (self.height ** 2))
+        return float(self.weight)/(self.height ** 2)+0.00005
 
     def macronutrient_split(self):
         protein = 0
@@ -73,5 +73,5 @@ user_a = user('test', 22, 79, 172, 'XY', 'Maintain', 'Light', "No Special Requir
 print(int(user_a.base_metabolic_rate()))
 print(int(user_a.maintenance_calories()))
 print(int(user_a.calorie_intake()))
-print(user_a.body_mass_index())
+print(int(user_a.body_mass_index()*10000))
 print(user_a.macronutrient_split())
