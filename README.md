@@ -7,7 +7,7 @@ The following inputs are required:
 * Age (integer)
 * Weight (integer, kg)
 * Height (integer, cm)
-* Sex Chromosomes (string, either XX or XY)
+* Sex Chromosomes at Birth (string, either XX or XY. Other cases ignored.)
 * Weight Goal (string, either Gain, Maintain or Lose)
 * Activity Level (string, either Sedentry, Light, Moderate, Active or Extreme)
 
