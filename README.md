@@ -17,14 +17,20 @@ The calculator takes this data and prints:
 * Maintenance Calorie Requirement (based on activity level)
 * Recommended Calorie Intake (based on weight goal)
 * Body Mass Index
-* Recommended calorie intake from each macronutrient (in order Protein, Carbohydrate, Fat)
+* Recommended calorie intake from each macronutrient
+  * Protein (35% of intake by default, 50% for Keto)
+  * Carbohydrate (35% of intake by default, 0 for Keto)
+  * Fat (30% of intake by default, 50% for Keto)
 
 That's all there is to it for now.
 
-#TODO
+##TODO
 
 Fixes & Improvements:
 
 * Improve user management
 * Refactor & streamline
 * Ensure daily protein intake doesn't fall below 1.5g/kg for users with a weight goal of Gain
+* Research nutritional values used to ensure they are correct
+
+_I am not a nutritionist, I'd recommend using trusted resources and modifying this to your own needs if you plan on actually using it_
